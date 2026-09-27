@@ -33,8 +33,12 @@ Para experimentar la rotación de roles en Scrum, la asignación de responsabili
 •	Tablero Kanban (GitHub Projects): https://github.com/users/laumahernandos-ai/projects/2
 3. Calendario de Reuniones Semanal y Roles
 Se estableció una dinámica de 3 reuniones por semana para dar seguimiento constante al ciclo de vida del Sprint:
-Día y Hora	Tipo de Reunión	Mi Rol	Rol de Jaime Alonso González	Rol de Eleane Avalos	Objetivo Principal
-Lunes 09:00 AM	Planeación Sprint 1	Desarrollador	Product Owner (PO)	Scrum Master (SM)	Definir el Sprint Goal y seleccionar las Historias de Usuario a trabajar en la semana.
-Miércoles 09:00 AM	Planeación Sprint 2	Desarrollador	Product Owner (PO)	Scrum Master (SM)	Revisar avance del código, resolver dudas de requerimientos y detectar bloqueos.
-Viernes 05:00 PM	Revisión y retro Sprint 	Desarrollador	Product Owner (PO)	Scrum Master (SM)	Demostración del incremento funcional al PO para aprobación y retrospectiva de mejoras.
+
+<img width="1032" height="505" alt="image" src="https://github.com/user-attachments/assets/fac57b89-b500-4fa9-8a5f-e3dab51c8c70" />
+
+Día y Hora	        |   Tipo de Reunión       |	Mi Rol	     | Rol de Jaime Alonso González |	Rol de Eleane Avalos |  	Objetivo Principal
+
+Lunes 09:00 AM	    | Planeación Sprint 1	    |Desarrollador|Product Owner (PO)	           | Scrum Master (SM)	   |  Definir el Sprint Goal y seleccionar las                                                                                                                            Historias de Usuario a trabajar en la semana.
+Miércoles 09:00 AM	| Planeación Sprint 2     |Desarrollador|Product Owner (PO)            |	Scrum Master (SM)    |	 Revisar avance del código, resolver dudas de                                                                                                                      requerimientos y detectar bloqueos.
+Viernes 05:00 PM   |	Revisión y retro Sprint |Desarrollador|Product Owner (PO)            |	Scrum Master (SM)	   |  Demostración del incremento funcional al PO                                                                                                                        para aprobación y retrospectiva de mejoras.
 
