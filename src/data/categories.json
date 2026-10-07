@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cat-01",
+    "nombre": "Cuidado Corporal",
+    "descripcion": "Desodorantes naturales, cremas y jabones artesanales sin químicos.",
+    "imagen": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+    "cantidadProductos": 12
+  },
+  {
+    "id": "cat-02",
+    "nombre": "Cuidado Facial",
+    "descripcion": "Aguas de rosas, tónicos, serums e hidrolatos 100% orgánicos.",
+    "imagen": "https://images.unsplash.com/photo-1608248597266-234293883a91?auto=format&fit=crop&w=600&q=80",
+    "cantidadProductos": 8
+  },
+  {
+    "id": "cat-03",
+    "nombre": "Accesorios y Bolsos",
+    "descripcion": "Bolsos de manta ecofriendly, cosmetiqueras y empaques sustentables.",
+    "imagen": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
+    "cantidadProductos": 5
+  }
+]

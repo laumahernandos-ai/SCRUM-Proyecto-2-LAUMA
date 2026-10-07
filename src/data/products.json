@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prod-01",
+    "categoriaId": "cat-01",
+    "nombre": "Desodorante Natural de Árbol de Té y Lavanda",
+    "precio": 180,
+    "descripcion": "Desodorante ecológico en barra, libre de aluminio y parabenos. Elaborado con manteca de karité, aceite de coco y aceites esenciales.",
+    "imagen": "https://images.unsplash.com/photo-1608248597266-234293883a91?auto=format&fit=crop&w=600&q=80",
+    "stock": 15,
+    "destacado": true
+  },
+  {
+    "id": "prod-02",
+    "categoriaId": "cat-02",
+    "nombre": "Agua de Rosas Orgánica Tónico Facial",
+    "precio": 220,
+    "descripcion": "Hidrolato puro de pétalos de rosa damascena destilados al vapor. Tonifica y equilibra el pH de la piel.",
+    "imagen": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+    "stock": 20,
+    "destacado": true
+  },
+  {
+    "id": "prod-03",
+    "categoriaId": "cat-03",
+    "nombre": "Bolso Eco de Manta 100% Algodón",
+    "precio": 350,
+    "descripcion": "Tote bag artesanal confeccionado en manta cruda sin blanquear. Resistente, lavable y reutilizable.",
+    "imagen": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
+    "stock": 8,
+    "destacado": false
+  },
+  {
+    "id": "prod-04",
+    "categoriaId": "cat-01",
+    "nombre": "Jabón Artesanal de Avena y Miel",
+    "precio": 95,
+    "descripcion": "Jabón saponificado en frío con hojuelas de avena orgánica y miel pura de abeja. Exfolia suavemente e hidrata.",
+    "imagen": "https://images.unsplash.com/photo-1607006344380-b6775a0824a7?auto=format&fit=crop&w=600&q=80",
+    "stock": 12,
+    "destacado": false
+  }
+]
