@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react'; // 1. Agregado useEffect aquí
 import categoriasData from './data/categories.json';
 import productosData from './data/products.json';
 
 function App() {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
-  const [carrito, setCarrito] = useState([]);
+
+  // 🟢 Persistencia de Carrito con localStorage
+  const [carrito, setCarrito] = useState(() => {
+    const guardado = localStorage.getItem('carrito');
+    return guardado ? JSON.parse(guardado) : [];
+  });
+
   const [mostrarCarrito, setMostrarCarrito] = useState(false);
 
   // Estados para el Proceso de Checkout (Sprint 4)
@@ -15,6 +21,11 @@ function App() {
     direccion: '',
     telefono: ''
   });
+
+  // 🟢 Guardar en localStorage cuando cambie el carrito
+  useEffect(() => {
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+  }, [carrito]);
 
   // Funciones del Carrito
   const agregarAlCarrito = (producto) => {
@@ -144,8 +155,14 @@ function App() {
 
       {/* Modal Lateral (Carrito + Guest Checkout) */}
       {mostrarCarrito && (
-        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', display: 'flex', justifyContent: 'flex-end', zIndex: 100 }}>
-          <div style={{ backgroundColor: '#ffffff', width: '100%', maxWidth: '420px', height: '100%', padding: '24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '-4px 0 10px rgba(0,0,0,0.1)', overflowY: 'auto' }}>
+        <div 
+          onClick={cerrarYResetear} // 🟢 Cierra al hacer clic afuera
+          style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', display: 'flex', justifyContent: 'flex-end', zIndex: 100 }}
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()} // 🟢 Previene cierre al hacer clic dentro
+            style={{ backgroundColor: '#ffffff', width: '100%', maxWidth: '420px', height: '100%', padding: '24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '-4px 0 10px rgba(0,0,0,0.1)', overflowY: 'auto' }}
+          >
             
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
