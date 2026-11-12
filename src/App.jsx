@@ -114,6 +114,7 @@ function App() {
   // 4. Agregar al carrito
   const agregarAlCarrito = (producto) => {
     if (!producto) return;
+   
 
     const idProducto = obtenerIdProducto(producto);
     if (!idProducto) {
